@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=debajyoti063_DebEcommerce_e89e0ab3-4b1c-46df-a066-d29059031ddb -Dsonar.projectName='DebEcommerce'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=debajyoti063_DebEcommerce_fcf1de04-9334-4a8a-ad3e-d5585be0f147 -Dsonar.projectName='DebEcommerce'
